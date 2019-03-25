@@ -1,0 +1,27 @@
+>> NODE <<
+	node -v (muestra version)
+	npm -v (")
+
+>> TYPESCRIPT <<
+	npm install -g typescript (-g significa que se debe ejecutar como 	administrador, click derecho en cmd > ejecutar como admin)
+	
+	tsc --version (debe ser 2.0 o superior)
+
+>> ANGULAR <<
+	npm install -g @angular/cli
+	
+	sudo npm install --unsafe -perm -g @angular/cli (si estoy en linux y da 		error)
+
+	ng v (version)
+
+>> IONIC <<
+	npm install -g ionic
+
+>> GIT <<
+	git config --global user.name "uname"
+	git config --global user.email sadsd@gmail.com
+
+
+
+
+

@@ -1,0 +1,23 @@
+> Correr el servidor:
+	> ng serve (corre en el puerto 4000) 
+	> ng serve -p 40001
+	> ng serve -o abre automaticamente el av por defecto
+
+> Nueva Componente >> ng g c components/nueva-comp
+
+> Instralando Bootstrap 
+	> npm install bootstrap --save
+	> npm install jquery --save
+	> npm install popper.js --save
+
+	> Luego modificar el archivo angular.json
+
+	"styles": [
+        	"src/styles.css",
+                "node_modules/bootstrap/dist/css/bootstrap.min.css"
+                  ],
+        "scripts": [
+                 "node_modules/jquery/dist/jquery.slim.min.js",
+                 "node_modules/popper.js/dist/umd/popper.min.js",
+                 "node_modules/bootstrap/dist/js/bootstrap.min.js"
+                  ],
