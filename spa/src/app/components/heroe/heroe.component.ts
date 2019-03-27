@@ -18,7 +18,7 @@ export class HeroeComponent implements OnInit {
     this.activateRoute.params.subscribe( params => {
       // tslint:disable-next-line:no-string-literal
       this.heroe = this._heroesService.getHeroe( params['id'] );
-      console.log( this.heroe );
+      // console.log( this.heroe );
     } );
 
    }

@@ -13,13 +13,13 @@ export class HeroesComponent implements OnInit {
   // tslint:disable-next-line:variable-name
   constructor( private _heroesService: HeroesService , private router: Router) {
 
-      console.log('constructor');
+      // console.log('constructor');
    }
 
   ngOnInit() {
 
       this.heroes = this._heroesService.getHeroes();
-      console.log(this.heroes);
+      // console.log(this.heroes);
   }
 
   verHeroe( idx: number ) {
